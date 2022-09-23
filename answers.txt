@@ -1,0 +1,12 @@
+q1) Using the socket library we create a socket and pass 'socket.SOCK_STREAM' as the second parameter to specify a TCP socket.
+
+q2) First, A server socket needs to bind to a port to listen to it, whereas the client socket chose the port it wants to communicate over.
+    Second, the client socket had to initiate the connection while the server socket was listening for it.
+
+q3) By using the command 'setsockopt' and passing 'socket.SO_REUSEADDR' as the second parameter and set it to True by passing '1' as the third parameter.
+
+q4) We get the IP and the port used by the client
+
+q5) It returns an empty bytes string after it is done sending the HTTP request
+
+q6) https://github.com/marzookh/cmput404Lab2
